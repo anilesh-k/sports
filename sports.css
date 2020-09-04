@@ -55,11 +55,9 @@ a{
     color: white;
     width: 50%;
     position: absolute;
-    top: 1000px;
-    right: 20px;
-    width: 500px;
+    padding: 25% 10% 0% 45%;
     height: 100px;
-    text-align: right;
+    text-align: right
 }
 .ftbl{
     font-size: 30px;
