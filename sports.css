@@ -1,8 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    position: absolute;
+    overflow: hidden;
 }
 .button{
     width: 100%;
@@ -54,10 +53,11 @@ a{
     text-align: center;
     color: white;
     width: 50%;
-    position: absolute;
-    padding: 25% 10% 0% 45%;
+    position: relative;
+    padding: 23% 0% 0% 45%;
     height: 100px;
-    text-align: right
+    text-align: right;
+    
 }
 .ftbl{
     font-size: 30px;
@@ -69,17 +69,20 @@ a{
     background-size: cover;  
 }
 .ftbl p{
-    align-content: center;
-    text-align: center;
+    align-content: flex-end;
+    text-align: right;
     color: white;
-    width: 50%;
-    position: absolute;
-    top: 1780px;
-    right: 15px;
+    width: 100%;
+    position: absolute; 
     width: 650px;
-    height: 100px;
+    height: 200px;
+    font-size: 20px;
     text-align: right;
     color:black;
+    margin-left: 49%;
+    margin-top: 25%;
+    
+    
 }
 .vlybl{
     font-size: 30px;
@@ -95,13 +98,12 @@ a{
     text-align: center;
     color: white;
     width: 50%;
-    position: absolute;
-    top: 2180px;
-    left: 15px;
-    width: 1150px;
-    height: 100px;
+    position: relative;
+    width: 80%;
+    height: 80px;
     text-align: left;
     color:black;
+    
 }
 .Cricket{
     font-size: 30px;
@@ -118,10 +120,11 @@ a{
     color: white;
     width: 50%;
     position: absolute;
-    top: 3200px;
-    right: 15px;
     width: 650px;
     height: 100px;
     text-align: right;
     color: blue;
+    margin-left: 50%;
+    margin-top: 25%;
+    margin-right:auto%;
 }
